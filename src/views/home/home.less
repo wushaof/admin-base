@@ -1,0 +1,94 @@
+@import '../less/less.less';
+.chatlist_scroll{
+  overflow: hidden;
+  .ivu-scroll-container{
+    // height:90vh!important;
+    width: 109%;
+    background: #f7f7f7;
+  }
+  .ivu-menu-item{
+    background: #fff;
+    color: #666!important;
+    padding: 0 10px;
+    border-bottom: 1px solid #e9eced;
+  }
+  .ivu-menu-item:first-child{
+    border-top: 1px solid #dbdbdb;
+  }
+  .ivu-layout-sider{
+    width: 100%!important;
+    min-width: 100%!important
+  }
+  .ivu-menu{
+    z-index: 1;
+    margin-top: 20px;
+  }
+}
+.list_left{
+  padding-top: 20px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.input_search{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  .ivu-input{
+    padding-right: 0;
+    padding-left: 32px;
+  }
+  .ivu-icon-ios-search{
+    right: inherit;
+  }
+}
+.message_list_box{
+  li{
+    padding: 14px!important;
+  }
+}
+.message_list{
+  position: relative;
+  .right_{
+    .flexbox;
+    .flex-d-c;
+    .flex-j-b;
+    height: 50px;
+    padding: 3px 0 2px 0;
+  }
+  .p1{
+    padding-left: 10px;
+    span{
+      font-size: 16px;color: #222;
+    }
+    em{
+      float: right;
+      color: #8d8d8d;
+      font-size: 14px;
+    }
+  }
+  .p2{
+    .ellipsis;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #8d8d8d;
+    padding-top: 3px;
+    width: 80%;
+    .ivu-tag-border{
+        position: absolute;
+        right: 0;bottom: -4px;
+        border: 1px solid #fd6e3f;
+        height: 22px;line-height: 22px;
+    }
+  }
+  .img{
+    float: left;
+    img{
+      height:50px;
+      width:50px;
+    }
+  }
+}
+.home-data{
+  padding: 0 20px;
+}
